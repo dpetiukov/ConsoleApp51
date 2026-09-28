@@ -7,7 +7,16 @@
         {
             longest = word;
         }
-
-        return longest;
     }
-}
+    return longest;
+};
+
+List<string> words = new List<string>
+{
+    "cat",
+    "programming",
+    "house",
+    "computer"
+};
+
+Console.WriteLine(findLongestWord(words));
